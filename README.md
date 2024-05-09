@@ -1,7 +1,7 @@
 # LSTM-vs-GRU-for-Algotrading
 The main Objective of this project was to analyze the results of both LSTM and GRU on temporal dependencies of stock price data.
 
-## I would like to first tell you the special part about this project - its flexibility. The code used in this project can be used with ANY stock/crypto/commodities that you desire. You only need to find its name on yahoo finance and replace that name with the one I used in the code. While I cannot guarantee similar performance on other stocks, the code will indeed run without any hickeys.
+## I would like to first tell you the special part about this project - its flexibility. The code used in this project can be used with ANY stock/crypto/commodities that you desire. You only need to find its name on yahoo finance and replace that name with the one I used in the code. Then the Yahoo Finance (yfinance) package will download all the data about that symbol from the stipulated time period, which you can change too! just edit the end_date and the offset parameters in the code block. While I cannot guarantee similar performance on other stocks, the code will indeed run without any hickeys.
 
 ## I have mainly used the closing prices of the stocks to predict their movement, in this example I used Kotak Bank historical stock price data, of which the closing prices over time are visualised below - 
 
